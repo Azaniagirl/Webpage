@@ -1,0 +1,40 @@
+ html{
+        display: flex;
+        flex-flow: row nowrap;  
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        height:100%;
+        margin: 0;
+        padding: 0;
+        background: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.WKJnonhLHe4aGOlEabjjEgHaE7%26pid%3D15.1&f=1);
+}
+h1{
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  color: perwinkle;
+  font-family: arial;
+  font-size: 55px;
+}
+.button{
+  display:inline-block;
+  text-decoration:none;
+  color:pink;
+  font-weight:bold;
+  min-width:132px;
+  min-height:37px;
+  border: 0;
+  border-radius:12px;
+  text-align:center;
+  background-color:teal;
+  margin:10px;
+  
+  }
+.button:active{
+  background-color:green;
+  position:relative;
+  top:8px;
+  left:8px;
+
+}
